@@ -16,7 +16,7 @@ export default function Home() {
             Currently securing infrastructure at DeepStrike, I specialize in comprehensive web, mobile and network penetration testing using both black box and grey box methodologies. My work combines manual exploitation with custom Python/Bash automation to uncover critical vulnerabilities that automated scanners miss.
           </p>
           <p>
-            Recognized by: ActBlue, Clearview AI, Groq, Preply, Crunch and others.
+            <strong>Recognized by:</strong> ActBlue, Clearview AI, Groq, Preply, Crunch and others.
           </p>
         </div>
       </section>

@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Security Engineer Portfolio",
+  title: "Ahmed Ramadan - Security Engineer",
   description: "Cybersecurity research, writeups, and insights",
 };
 

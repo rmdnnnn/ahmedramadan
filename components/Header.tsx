@@ -16,7 +16,7 @@ export default function Header() {
             href="/"
             className="text-foreground font-medium hover:text-foreground/80 transition-colors"
           >
-            Portfolio
+            Ahmed Ramadan
           </Link>
           <ul className="flex items-center gap-6">
             {navItems.map((item) => (

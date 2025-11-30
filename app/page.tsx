@@ -9,13 +9,16 @@ export default function Home() {
     <div className="max-w-[640px] mx-auto px-6 py-12">
       <section className="mb-16">
         <h1 className="text-4xl font-bold mb-4 text-foreground">
-          I am a Security Engineer.
+          Cyber Security Engineer & Researcher.
         </h1>
-        <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-          I specialize in offensive security, vulnerability research, and
-          penetration testing. This site documents my research, CTF writeups,
-          and insights into cybersecurity.
-        </p>
+        <div className="text-lg text-foreground/80 leading-relaxed mb-6 space-y-4">
+          <p>
+            Currently securing infrastructure at DeepStrike, I specialize in comprehensive web, mobile and network penetration testing using both black box and grey box methodologies. My work combines manual exploitation with custom Python/Bash automation to uncover critical vulnerabilities that automated scanners miss.
+          </p>
+          <p>
+            Recognized by: ActBlue, Clearview AI, Groq, Preply, Crunch and others.
+          </p>
+        </div>
       </section>
 
       <section>

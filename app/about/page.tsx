@@ -1,20 +1,4 @@
-import { Shield, Code, Bug, Lock, Zap, Terminal } from "lucide-react";
-
-const certifications = [
-  {
-    name: "OSCP",
-    issuer: "Offensive Security",
-    date: "2024",
-    icon: Shield,
-  },
-  {
-    name: "CISSP",
-    issuer: "ISC²",
-    date: "2023",
-    icon: Lock,
-  },
-  // Add more certifications as needed
-];
+import { Code, Bug, Zap, Terminal } from "lucide-react";
 
 const arsenal = [
   { name: "Burp Suite", category: "Web Testing", icon: Bug },
@@ -48,32 +32,6 @@ export default function About() {
             This portfolio serves as a collection of my work, research findings,
             and insights into the ever-evolving field of cybersecurity.
           </p>
-        </div>
-      </section>
-
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-6 text-foreground">
-          Certifications
-        </h2>
-        <div className="space-y-4">
-          {certifications.map((cert, index) => {
-            const Icon = cert.icon;
-            return (
-              <div
-                key={index}
-                className="flex items-start gap-4 p-4 border border-[#262626] rounded-lg hover:border-muted transition-colors"
-              >
-                <Icon className="w-5 h-5 text-foreground mt-0.5 flex-shrink-0" />
-                <div>
-                  <h3 className="font-semibold text-foreground">
-                    {cert.name}
-                  </h3>
-                  <p className="text-sm text-muted">{cert.issuer}</p>
-                  <p className="text-sm text-muted">{cert.date}</p>
-                </div>
-              </div>
-            );
-          })}
         </div>
       </section>
 

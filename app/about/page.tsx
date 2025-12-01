@@ -15,7 +15,7 @@ export default function About() {
 
       <div className="space-y-8 text-foreground/90 leading-relaxed mb-12">
         <p>
-          I am an Offensive Security Engineer and Researcher based in <strong>Cairo, Egypt</strong>. My career is built on a foundation of continuous offensive research and a drive to outsmart modern security defenses.
+          I'm a Cyber Security Engineer and Researcher based in <strong>Cairo, Egypt</strong>. My career is built on a foundation of continuous offensive research and a drive to outsmart modern security defenses.
         </p>
 
         <section>

@@ -20,7 +20,7 @@ export default function About() {
             I am a cybersecurity engineer passionate about offensive security
             and vulnerability research. My journey in cybersecurity began with
             a curiosity about how systems can be compromised and how to defend
-            against attacks.
+            against attackss.
           </p>
           <p>
             Over the years, I&apos;ve focused on penetration testing, exploit

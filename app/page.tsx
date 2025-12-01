@@ -13,7 +13,7 @@ export default function Home() {
         </h1>
         <div className="text-lg text-foreground/80 leading-relaxed mb-6 space-y-4">
           <p>
-            I'm a Cyber Security Engineer and Penetration Tester at DeepStrike with solid experience across web, mobile and network security. I've been recognized by multiple organizations for my security research and responsible vulnerability disclosures.
+            I&apos;m a Cyber Security Engineer and Penetration Tester at DeepStrike with solid experience across web, mobile and network security. I&apos;ve been recognized by multiple organizations for my security research and responsible vulnerability disclosures.
           </p>
         </div>
       </section>

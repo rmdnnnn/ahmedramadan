@@ -13,7 +13,7 @@ export default function About() {
     <div className="max-w-[640px] mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold mb-8 text-foreground">About Me</h1>
 
-      <div className="space-y-8 text-foreground/90 leading-relaxed">
+      <div className="space-y-8 text-foreground/90 leading-relaxed mb-12">
         <p>
           I am an Offensive Security Engineer and Researcher based in <strong>Cairo, Egypt</strong>. My career is built on a foundation of continuous offensive research and a drive to outsmart modern security defenses.
         </p>
@@ -22,22 +22,10 @@ export default function About() {
           <h3 className="text-xl font-semibold mb-4 text-foreground">Experience</h3>
           <div className="space-y-4">
             <p>
-              I started my professional journey as a Security Engineer at <a href="https://www.bugswagger.com/" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:text-foreground/80"><strong>BugSwagger</strong></a>, where I conducted assessments for web applications, APIs, and thick clients. This role taught me the fundamentals of auditing diverse assets and validating automated findings with manual rigor.
+              I started as a Security Engineer at <a href="https://www.bugswagger.com/" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:text-foreground/80"><strong>BugSwagger</strong></a>, auditing web applications, APIs, and thick clients. This role grounded my ability to validate automated findings with manual rigor.
             </p>
             <p>
-              For over two years at <a href="https://deepstrike.io" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:text-foreground/80"><strong>DeepStrike</strong></a>, I have led offensive engagements across <strong>Web, Mobile, and Network</strong> infrastructure. My role has evolved beyond simple penetration testing into a strategic engineering partnership.
-            </p>
-          </div>
-        </section>
-
-        <section>
-          <h3 className="text-xl font-semibold mb-4 text-foreground">Methodology</h3>
-          <div className="space-y-4">
-            <p>
-              I utilize a <strong>hybrid testing approach</strong>, leveraging both manual exploitation and automated tooling to ensure comprehensive coverage and zero false positives.
-            </p>
-            <p>
-              I don&apos;t believe in &quot;throwing reports over the wall.&quot; My approach is defined by deep collaboration with <strong>development teams</strong>. I work side-by-side with engineers to reproduce exploits, understand root architectural flaws, and implement robust remediation strategies that scale.
+              Currently, I have spent over two years at <a href="https://deepstrike.io" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:text-foreground/80"><strong>DeepStrike</strong></a> leading offensive engagements across <strong>Web, Mobile, and Network</strong> infrastructure. I utilize a hybrid testing approach, working directly with <strong>development teams</strong> to reproduce exploits and implement robust remediation strategies.
             </p>
           </div>
         </section>
@@ -46,13 +34,10 @@ export default function About() {
           <h3 className="text-xl font-semibold mb-4 text-foreground">Impact & Acknowledgments</h3>
           <div className="space-y-4">
             <p>
-              Beyond my corporate role, I validate my methodology in the wild. I have secured acknowledgments through <strong>Bug Bounty</strong> programs for responsibly disclosing critical vulnerabilities to organizations like <strong>Clearview AI</strong>, <strong>K Health</strong>, <strong>Merge</strong>, <strong>Groq</strong>, <strong>Preply</strong>, <strong>Insurify</strong>, and others.
+              Beyond my corporate role, I actively work as a <strong>Bug Hunter</strong> to validate my methodology in the wild. I have secured acknowledgments for responsibly disclosing critical vulnerabilities to organizations like <strong>Clearview AI</strong>, <strong>K Health</strong>, <strong>Merge</strong>, <strong>Groq</strong>, <strong>Preply</strong>, <strong>Insurify</strong>, and others.
             </p>
             <p>
               Additionally, my research has been formally recognized in the <strong>Security Hall of Fame</strong> for: <a href="https://www.ebi.ac.uk/security/hall-of-fame/" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:text-foreground/80"><strong>EMBL-EBI</strong></a>, <a href="https://www.crunch.co.uk/responsible-disclosure" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:text-foreground/80"><strong>Crunch</strong></a> and others.
-            </p>
-            <p>
-              What ultimately drives me is a genuine passion for <strong>Red Teaming</strong> and <strong>Vulnerability Research</strong>. I treat every engagement as an opportunity to simulate sophisticated adversaries, bridging the gap between theoretical compliance and practical, battle hardened defense.
             </p>
           </div>
         </section>

@@ -58,6 +58,7 @@ export default function About() {
         </section>
       </div>
 
+      
       <section>
         <h2 className="text-2xl font-semibold mb-6 text-foreground">Arsenal</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

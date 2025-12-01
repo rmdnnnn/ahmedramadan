@@ -13,10 +13,7 @@ export default function Home() {
         </h1>
         <div className="text-lg text-foreground/80 leading-relaxed mb-6 space-y-4">
           <p>
-            Currently securing infrastructure at DeepStrike, I specialize in comprehensive web, mobile and network penetration testing using both black box and grey box methodologies. My work combines manual exploitation with custom Python/Bash automation to uncover critical vulnerabilities that automated scanners miss.
-          </p>
-          <p>
-            <strong>Recognized by:</strong> ActBlue, Clearview AI, Groq, Preply, Crunch and others.
+            I'm a Cyber Security Engineer and Penetration Tester at DeepStrike with solid experience across web, mobile and network security. I've been recognized by multiple organizations for my security research and responsible vulnerability disclosures.
           </p>
         </div>
       </section>
